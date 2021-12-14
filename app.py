@@ -1,17 +1,9 @@
 # comment
-#hell = "Hello world" 
-#print(hell) 
-#a = 22
-#b = 2
-#c = a ** b
 
-#print()
-#print(c)
+a = input("Enter a = ")
+b = input("Enter b = ")
 
-a=input("Enter a = ")
-b=input("Enter b = ")
-
-o = '-'
+o = '%'
 if o == '+':
     c = int(a) + int(b)
 
@@ -20,5 +12,15 @@ elif o == '-':
 
 elif o == '*':
     c = int(a) * int(b)
+
+elif o == '//':
+    c = int(a) // int(b)
+
+elif o == '**':
+    c = int(a) ** int(b)
+
+elif o == '%':
+    c = int(a) % int(b)
+
 print()
 print("a"+ o + "b=", c)
