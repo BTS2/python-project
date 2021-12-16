@@ -50,7 +50,7 @@ while True:
     if (o != 's' and o != 'c'):
         y = int(input('Enter y = '))
     
-    
+
 
     if o == '+':
         print(plus(x, y))
