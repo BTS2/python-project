@@ -1,0 +1,11 @@
+print('Calculator')
+input_1 = input('First Number? ')
+input_2 = input('Second Number? ')
+
+try:
+    print(f'{input_1} + {input_2} is {float(input_1) + float(input_2)}')
+    print(f'{input_1} - {input_2} is {float(input_1) - float(input_2)}') 
+    print(f'{input_1} X {input_2} is {float(input_1) * float(input_2)}')
+    print(f'{input_1} / {input_2} is {float(input_1) // float(input_2)}')
+except Exception as e:
+    print(f'ERROR: {e}')
